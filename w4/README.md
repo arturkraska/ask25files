@@ -1,6 +1,7 @@
-```
-gcc main.c plik.c
-```
+Komendy kompilatora GCC użyte na wykładzie.
+
+* `gcc main.c plik.c` - komenda kompilująca dwa pliki razem ze sobą.
+
 ```
 gcc plik.c -S -O2
 ```
