@@ -4,9 +4,9 @@ Jako przykład weźmy rekurencyjną funkcję z pliku `silnia.cpp`, liczącą sil
 Na początek skompilujmy program instrukcją  `gcc main.c silnia.c -g -O1 -no-pie -fno-pie`. 
 W skrócie opisując użyte flagi:
 
-* `-g` jest flagą dla debuggera $--$ dzięki niej możemy w gdb podejrzeć dodatkowo kod w `C`, widzimy nazwy zmiennych itp. 
-* `-O1` $--$ użycie lepszych optymalizacji skutkuje usunięciem rekurencji z naszej funkcji :).
-* `-no-pie -fno-pie` $--$ te flagi wyłączają tzw. randomizację adresów, o której dowiemy się później. Z naszego punktu widzenia, wszystkie adresy w kodzie są ustalone i mają wartości rzędu `0x400000`.
+* `-g` jest flagą dla debuggera $-$ dzięki niej możemy w gdb podejrzeć dodatkowo kod w `C`, widzimy nazwy zmiennych itp. 
+* `-O1` $-$ użycie lepszych optymalizacji skutkuje usunięciem rekurencji z naszej funkcji :).
+* `-no-pie -fno-pie` $-$ te flagi wyłączają tzw. randomizację adresów, o której dowiemy się później. Z naszego punktu widzenia, wszystkie adresy w kodzie są ustalone i mają wartości rzędu `0x400000`.
 
 
 Po kompilacji warto obejrzeć wygenerowany kod poleceniem `objdump -d a.out`.
