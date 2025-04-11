@@ -1,3 +1,3 @@
 ## ASK 25
 
-Repozytoriun zawiera pliki użyte na wykładze z Architektur Systemów Komputerowych 2025.
+Repozytorium zawiera pliki użyte na wykładzie z Architektur Systemów Komputerowych 2025.
