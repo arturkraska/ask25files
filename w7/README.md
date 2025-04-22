@@ -1,6 +1,5 @@
-Kody w języku C możemy przetłumaczyć na assemblera tak jak zawsze, np. komendą:  
-`gcc sum.c -S -O2`.
-Jednakże część przedstawionych kodów została napisana ręcznie, w celu uzyskania konkretnych powiązań między użytymi rejestrami.
+Kody w języku C możemy przetłumaczyć na assemblera tak jak zawsze, np. komendą `gcc sum.c -S -O2`.
+Jednakże część przedstawionych tutaj kodów została napisana ręcznie, w celu uzyskania konkretnych powiązań między użytymi rejestrami.
 
 Aby zbadać wydajność naszego programu na konkretnej mikroarchitekturze (my na przykład użyjemy mikroarchitektury Haswell), możemy użyć narzędzia `llvm-mca`. 
 Przykładowo, wyniki z repozytorium uzyskałem za pomocą komend:
